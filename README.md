@@ -35,6 +35,10 @@ uv run python examples/02_tool_calling.py
 uv run python examples/03_first_graph.py
 ```
 
+## Diagramas
+
+Comparación de los tres casos y arquitectura general (Mermaid): [docs/diagramas.md](docs/diagramas.md).
+
 ## Estructura
 
 ```
@@ -43,6 +47,7 @@ src/agents/tools.py   tools de ejemplo
 src/agents/graph.py   grafo ReAct (build_graph para tests, make_graph para langgraph dev)
 examples/             un script por paso
 tests/                tests con modelo falso
+docs/diagramas.md     diagramas Mermaid
 langgraph.json        configuracion para LangGraph Studio
 ```
 
